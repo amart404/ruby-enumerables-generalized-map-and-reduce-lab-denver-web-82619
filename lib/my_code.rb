@@ -10,4 +10,5 @@ end
 def reduce(source_array, starting_point = 0)
   total = starting_point
   for it in source_array
+    
 end
