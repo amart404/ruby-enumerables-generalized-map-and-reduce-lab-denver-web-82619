@@ -8,5 +8,5 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_point = 0)
-  return yield(starting_point, )
+  return yield(starting_point, source_array[0])
 end
