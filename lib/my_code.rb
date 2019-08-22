@@ -10,5 +10,5 @@ end
 def reduce(source_array, starting_point = 0)
   total = starting_point
   source_array.each do |value|
-    
+    total += value
 end
