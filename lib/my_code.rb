@@ -4,5 +4,6 @@ def map(source_array)
   self.each do |value|
     result << source_array.call(value)
   end
+  result
 end
   
