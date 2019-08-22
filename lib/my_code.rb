@@ -12,5 +12,8 @@ def reduce(source_array, starting_point = 0)
   for it in source_array do
     total = yield(total, it)
   end
+  if total == 0
+    return true
+  end
   total
 end
