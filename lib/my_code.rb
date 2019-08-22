@@ -2,8 +2,8 @@
 def map(source_array)
   new_array = []
   self.each do |value|
-    result << source_array.call(value)
+    new_array << source_array.call(value)
   end
-  result
+  new_array
 end
   
